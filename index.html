@@ -1,21 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>Resume</title>
-</head>
-<body>
+  </head>
+  <body>
     <main class="main">
-<aside>
-    <img src="./img/2022-05-25 13.46.29.jpg" alt="парень в рубахе">
-</aside>
-<div>
-    <h1>Nikita Polozov</h1>
-</div>
+      <section class="aside-flex">
+        <div class="resume-photo">
+          <img src="./img/2022-05-25 13.46.29.jpg" alt="парень в рубахе" />
+        </div>
+        <div class="about-me">
+          <h3 class="title">Front-End Developer</h3>
+          <h1 class="title-big">Nikita Polozov</h1>
+          <p class="paragraf">
+            After ten years of working in the service industry, I have been
+            decided to learn IT-technologis. I got acquainted with all
+            directions of IT, and chose Front-end. It's more interesting for me.
+          </p>
+          <ul class="list">
+            <li class="contact_title">
+              <a href="tomail:npolozov0@gmail.com" class="contact"
+                ><svg width="15" height="15" class="contact_svg">
+                  <use href="./img/svg/symbol-defs.svg#icon-mail"></use>
+                </svg>
+                npolozov0@gmail.com</a
+              >
+            </li>
+            <li class="contact_title">
+              <a href="tell:+380634343010" class="contact">
+                <svg width="15" height="15" class="contact_svg">
+                  <use href="./img/svg/symbol-defs.svg#icon-mobile"></use>
+                </svg>
+                +380634343010</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="work_experience">
+        <div class="skills">
+          <div class="skils_list">
+            <h2 class="title skills_title">Soft Skills</h2>
+            <ul class="">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="skils_list">
+            <h2 class="title skills_title">Hard Skills</h2>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience">
+          <h2 class="title skills_title">Education</h2>
+          <ul>
+            <li class="experience_list">
+              <a href="https://goit.ua/" class="experience_link">Goit</a>
+            </li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
     </main>
-    
-</body>
+  </body>
 </html>
