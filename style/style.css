@@ -2,8 +2,6 @@ body {
   background-color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 400;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 h1,
@@ -38,7 +36,7 @@ img {
   width: 370px;
   position: absolute;
   left: 120px;
-  top: 50px;
+  top: 40px;
 }
 
 .list {
@@ -64,7 +62,7 @@ img {
   align-items: center;
   margin-bottom: 10px;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 22px;
   line-height: 1.2;
 }
 
@@ -129,11 +127,7 @@ img {
   margin-bottom: 40px;
 }
 
-.skills_title {
-  margin-left: 10px;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 1.2;
+.color_title {
   color: rgba(41, 39, 39, 0.9);
 }
 
@@ -148,12 +142,4 @@ img {
   text-decoration: none;
   display: flex;
   align-items: flex-end;
-}
-
-.experience_link::after {
-  content: "";
-  align-items: baseline;
-  height: 1px;
-  width: 90px;
-  background-color: currentColor;
 }
