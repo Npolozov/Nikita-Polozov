@@ -81,6 +81,7 @@ img {
 }
 
 .title::before {
+  position: absolute;
   content: "";
   width: 40px;
   height: 1px;
@@ -127,12 +128,49 @@ img {
 }
 
 /* ------------------------skills------------------------------ */
+
+.soc__container {
+  margin-top: 20px;
+}
+.list__soc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item__soc:not(:last-child) {
+  margin-right: 10px;
+}
+
+.link__soc {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: rgba(41, 39, 39, 0.9);
+  border-radius: 50%;
+  transition: color 300ms linear, background-color 300ms linear;
+}
+
+.link__soc:hover,
+.link__soc:focus {
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.icon__soc {
+  fill: currentColor;
+}
+
 .work_experience {
   display: flex;
 }
 .skills {
   width: 395px;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-left: 40px;
   padding-bottom: 60px;
   background-color: rgb(222, 217, 214);
