@@ -15,7 +15,7 @@ p {
   margin: 0;
 }
 
-ul {
+ul, ol {
   padding: 0;
   margin: 0;
 }
@@ -81,7 +81,6 @@ img {
 }
 
 .title::before {
-  position: absolute;
   content: "";
   width: 40px;
   height: 1px;
@@ -135,7 +134,7 @@ img {
 .list__soc {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .item__soc:not(:last-child) {
@@ -217,6 +216,35 @@ img {
 .experience__link:focus .accent_color {
   color: orangered;
 }
+
+
+/* -------------------------------project------------------------------ */
+
+.project__link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.7;
+  color: rgba(41, 39, 39, 0.9);
+  font-weight: bold;
+  transition: color 300ms linear;
+}
+
+.web__color {
+  color: cornflowerblue;
+  transition: color 300ms linear;
+}
+
+.project__link:hover,
+.project__link:focus {
+  color: cornflowerblue;
+}
+
+.project__link:hover .web__color,
+.project__link:focus .web__color {
+  color: rgba(41, 39, 39, 0.9);
+}
+
+
 
 /* ---------------------------Education---------------------------- */
 
