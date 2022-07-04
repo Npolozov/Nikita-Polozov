@@ -2,6 +2,7 @@ body {
   background-color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 400;
+  line-height: 1.2;
 }
 
 h1,
@@ -15,7 +16,8 @@ p {
   margin: 0;
 }
 
-ul, ol {
+ul,
+ol {
   padding: 0;
   margin: 0;
 }
@@ -104,20 +106,26 @@ img {
   color: rgb(216, 204, 204, 0.9);
 }
 
-.contact_title:not(:last-child) {
+.conteiner_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact_item:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.contact {
-  display: flex;
+.contact__link {
+  display: inline-flex;
   align-items: center;
   text-decoration: none;
   color: rgb(216, 204, 204, 0.9);
   transition: color 300ms linear;
 }
 
-.contact:hover,
-.contact:focus {
+.contact__link:hover,
+.contact__link:focus {
   color: white;
 }
 
@@ -127,42 +135,6 @@ img {
 }
 
 /* ------------------------skills------------------------------ */
-
-.soc__container {
-  margin-top: 20px;
-}
-.list__soc {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.item__soc:not(:last-child) {
-  margin-right: 10px;
-}
-
-.link__soc {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  color: rgba(41, 39, 39, 0.9);
-  border-radius: 50%;
-  transition: color 300ms linear, background-color 300ms linear;
-}
-
-.link__soc:hover,
-.link__soc:focus {
-  color: white;
-  background-color: cornflowerblue;
-}
-
-.icon__soc {
-  fill: currentColor;
-}
 
 .work_experience {
   display: flex;
@@ -217,7 +189,6 @@ img {
   color: orangered;
 }
 
-
 /* -------------------------------project------------------------------ */
 
 .project__link {
@@ -244,18 +215,7 @@ img {
   color: rgba(41, 39, 39, 0.9);
 }
 
-
-
 /* ---------------------------Education---------------------------- */
-
-.education__title {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 1.2;
-}
 
 .education__name {
   font-weight: 700;

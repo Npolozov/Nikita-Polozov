@@ -21,7 +21,7 @@
     <main class="main">
       <section class="aside-flex">
           <img src="./img/2022-05-25 13.46.29.jpg" alt="парень в рубахе" />
-        <div class="about-me">
+      <div class="about-me">
           <h3 class="title">Front-End Developer</h3>
           <h1 class="title-big">Nikita Polozov</h1>
           <p class="paragraf">
@@ -29,17 +29,18 @@
             decided to learn IT-technologis. I got acquainted with all
             directions of IT, and chose Front-end. It's more interesting for me.
           </p>
-          <ul class="list">
-            <li class="contact_title">
-              <a href="tomail:npolozov0@gmail.com" class="contact"
+          <div class="conteiner_contact">
+            <ul class="list">
+            <li class="contact_item">
+              <a href="tomail:npolozov0@gmail.com" class="contact__link"
                 ><svg width="15" height="15" class="contact_svg">
                   <use href="./img/svg/symbol-defs.svg#icon-mail"></use>
                 </svg>
                 npolozov0@gmail.com</a
               >
             </li>
-            <li class="contact_title">
-              <a href="tell:+380634343010" class="contact">
+            <li class="contact_item">
+              <a href="tell:+380634343010" class="contact__link">
                 <svg width="15" height="15" class="contact_svg">
                   <use href="./img/svg/symbol-defs.svg#icon-mobile"></use>
                 </svg>
@@ -48,23 +49,10 @@
             </li>
           </ul>
         </div>
+      </div>
       </section>
       <section class="work_experience">
         <div class="skills">
-          <div class="list__container">
-            <ul class="list list__soc">
-              <li class="item__soc"><a href="https://www.facebook.com/profile.php?id=100008486384476" class="link__soc">
-                <svg class="icon__soc" width="25" height="25">
-                  <use href="./img/svg/symbol-soc.svg#icon-facebook"></use>
-                </svg>
-              </a></li>
-              <li class="item__soc"><a href="https://www.linkedin.com/in/%D0%BD%D0%B8%D0%BA%D0%B8%D1%82%D0%B0-%D0%BF%D0%BE%D0%BB%D0%BE%D0%B7%D0%BE%D0%B2-70794a23b/" class="link__soc">
-                <svg class="icon__soc" width="25" height="25">
-                  <use href="./img/svg/symbol-soc.svg#icon-linkedin2"></use>
-                </svg>
-              </a></li>
-            </ul>
-          </div>
           <div class="list__container">
             <h2 class="title color_title">Soft Skills</h2>
             <ul class="">
@@ -108,7 +96,7 @@
             </ol>
           </div>
           <div class="list__container">
-            <h2 class="education__title color_title">Education</h2>
+            <h2 class="title color_title">Education</h2>
             <h4 class="education__name">Kiev National University of Economy</h4>
             <p class="education__profi">Manager</p>
             <p class="education__period">
