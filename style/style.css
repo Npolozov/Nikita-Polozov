@@ -200,7 +200,7 @@ img {
   transition: color 300ms linear;
 }
 
-.web__color {
+.web__color--blue {
   color: cornflowerblue;
   transition: color 300ms linear;
 }
@@ -210,8 +210,8 @@ img {
   color: cornflowerblue;
 }
 
-.project__link:hover .web__color,
-.project__link:focus .web__color {
+.project__link:hover .web__color--blue,
+.project__link:focus .web__color--blue {
   color: rgba(41, 39, 39, 0.9);
 }
 
