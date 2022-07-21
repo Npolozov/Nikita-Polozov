@@ -215,6 +215,30 @@ img {
   color: rgba(41, 39, 39, 0.9);
 }
 
+.project__link--pink {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #d41443;
+  font-weight: bold;
+  transition: color 300ms linear;
+}
+
+.web__color--pink {
+  color: #ffa5ba;
+  transition: color 300ms linear;
+}
+
+.project__link--pink:hover,
+.project__link--pink:focus {
+  color: #ffa5ba;
+}
+
+.project__link--pink:hover .web__color--pink,
+.project__link--pink:focus .web__color--pink {
+  color: #d41443;
+}
+
 /* ---------------------------Education---------------------------- */
 
 .education__name {
