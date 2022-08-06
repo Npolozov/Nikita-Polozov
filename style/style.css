@@ -239,6 +239,30 @@ img {
   color: #d41443;
 }
 
+.project__link--orange {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #ffb342;
+  font-weight: bold;
+  transition: color 300ms linear;
+}
+
+.web__color--blackblue {
+  color: #1c2752;
+  transition: color 300ms linear;
+}
+
+.project__link--orange:hover,
+.project__link--orange:focus {
+  color: #1c2752;
+}
+
+.project__link--orange:hover .web__color--blackblue,
+.project__link--orange:focus .web__color--blackblue {
+  color: #ffb342;
+}
+
 /* ---------------------------Education---------------------------- */
 
 .education__name {
