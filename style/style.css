@@ -38,7 +38,7 @@ ol {
 }
 
 .list__container {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .list__item {
@@ -164,29 +164,29 @@ img {
 
 .experience__link {
   text-decoration: none;
-  color: black;
+  color: red;
   font-weight: bold;
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.2;
 }
 
-.experience__link::before {
+/* .experience__link::before {
   content: "";
   width: 40px;
   height: 1px;
   background-color: currentColor;
   margin-right: 20px;
-}
+} */
 
 .accent_color {
   transition: color 300ms linear;
 }
 .experience__link:hover .accent_color,
 .experience__link:focus .accent_color {
-  color: orangered;
+  color: black;
 }
 
 /* -------------------------------project------------------------------ */
