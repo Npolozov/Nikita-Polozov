@@ -190,15 +190,15 @@ img {
   line-height: 1.7;
   color: rgba(41, 39, 39, 0.9);
   font-weight: bold;
-  transition: color 300ms linear;
+  /* transition: color 300ms linear; */
 }
 
 .web__color--blue {
   color: cornflowerblue;
-  transition: color 300ms linear;
+  /* transition: color 300ms linear; */
 }
 
-.project__link:hover,
+/* .project__link:hover,
 .project__link:focus {
   color: cornflowerblue;
 }
@@ -206,23 +206,23 @@ img {
 .project__link:hover .web__color--blue,
 .project__link:focus .web__color--blue {
   color: rgba(41, 39, 39, 0.9);
-}
+} */
 
 .project__link--pink {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.7;
-  color: #d41443;
   font-weight: bold;
-  transition: color 300ms linear;
+  color: rgba(41, 39, 39, 0.9);
+  /* transition: color 300ms linear; */
 }
 
 .web__color--pink {
   color: #ffa5ba;
-  transition: color 300ms linear;
+  /* transition: color 300ms linear; */
 }
 
-.project__link--pink:hover,
+/* .project__link--pink:hover,
 .project__link--pink:focus {
   color: #ffa5ba;
 }
@@ -230,23 +230,23 @@ img {
 .project__link--pink:hover .web__color--pink,
 .project__link--pink:focus .web__color--pink {
   color: #d41443;
-}
+} */
 
 .project__link--orange {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.7;
-  color: #ffb342;
   font-weight: bold;
-  transition: color 300ms linear;
+  color: rgba(41, 39, 39, 0.9);
+  /* transition: color 300ms linear; */
 }
 
 .web__color--blackblue {
-  color: #1c2752;
-  transition: color 300ms linear;
+  color: #ffb342;
+  /* transition: color 300ms linear; */
 }
 
-.project__link--orange:hover,
+/* .project__link--orange:hover,
 .project__link--orange:focus {
   color: #1c2752;
 }
@@ -254,7 +254,7 @@ img {
 .project__link--orange:hover .web__color--blackblue,
 .project__link--orange:focus .web__color--blackblue {
   color: #ffb342;
-}
+} */
 
 /* ---------------------------Education---------------------------- */
 
