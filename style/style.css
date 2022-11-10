@@ -26,7 +26,6 @@ ol {
   display: flex;
   flex-direction: column;
   width: 1200px;
-  height: 1319px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -142,7 +141,7 @@ img {
 }
 .skills {
   width: 395px;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-left: 40px;
   padding-bottom: 60px;
   background-color: rgb(222, 217, 214);
@@ -245,7 +244,7 @@ img {
   /* transition: color 300ms linear; */
 }
 
-.web__color--blackblue {
+.web__color--orange_yellow {
   color: #ffb342;
   /* transition: color 300ms linear; */
 }
@@ -281,4 +280,9 @@ img {
   font-size: 12px;
   line-height: 1.25;
   color: rgba(41, 39, 39, 0.9);
+}
+
+.work {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
