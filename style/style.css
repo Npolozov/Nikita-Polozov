@@ -26,10 +26,11 @@ ol {
   display: flex;
   flex-direction: column;
   width: 1200px;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .list {
@@ -42,7 +43,7 @@ ol {
 
 .list__item {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.7;
 }
 .list__item:not(:last-child) {
@@ -140,7 +141,7 @@ img {
   display: flex;
 }
 .skills {
-  width: 395px;
+  width: 420px;
   padding-top: 50px;
   padding-left: 40px;
   padding-bottom: 60px;
@@ -163,8 +164,8 @@ img {
 }
 
 .experience__link {
+  color: rgba(41, 39, 39, 0.9);
   text-decoration: none;
-  color: red;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -192,15 +193,11 @@ img {
 }
 
 .git__link {
-   text-decoration: none;
+  text-decoration: none;
   font-size: 16px;
   line-height: 1.7;
   color: rgba(41, 39, 39, 0.9);
 }
-
-
-
-
 
 .project__link--orange {
   text-decoration: none;
@@ -210,14 +207,13 @@ img {
   color: rgba(41, 39, 39, 0.9);
 }
 
-
 /* ---------------------------Education---------------------------- */
 
 .education__name {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: rgba(41, 39, 39, 0.9);
   margin-bottom: 10px;
 }
 .education__profi {
