@@ -141,9 +141,9 @@ img {
   display: flex;
 }
 .skills {
-  width: 420px;
+  width: 500px;
   padding-top: 50px;
-  padding-left: 40px;
+  padding-left: 30px;
   padding-bottom: 60px;
   background-color: rgb(222, 217, 214);
 }
