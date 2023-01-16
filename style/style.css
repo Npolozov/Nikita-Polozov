@@ -99,7 +99,7 @@ img {
 
 .paragraf {
   margin-bottom: 20px;
-  width: 400px;
+  width: 100%;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -159,6 +159,7 @@ img {
 /* ------------------------------------Experience--------------------------- */
 
 .experience {
+  width: 100%;
   padding-top: 60px;
   padding-left: 100px;
 }
